@@ -8,11 +8,15 @@ public class Parrot extends Bird {
 
     @Override
     public String toString() {
-        return "I'm a parrot";
+        return "My name is " + name + ". I am a Parrot!";
     }
 
     @Override
     public int getValue() {
         return 20;
+    }
+
+    public Parrot(String name) {
+        this.name = name;
     }
 }
